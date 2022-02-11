@@ -169,7 +169,6 @@ NTSTATUS FsFilterUnload(FLT_FILTER_UNLOAD_FLAGS Flags) {
     return STATUS_SUCCESS;
 }
 
-
 NTSTATUS DriverEntry(
     PDRIVER_OBJECT DriverObject,
     PUNICODE_STRING RegistryPath
